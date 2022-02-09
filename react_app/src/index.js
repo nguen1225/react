@@ -17,42 +17,42 @@ ReactDOM.render(
 
 // --------------------------------------------------
 
-const name = '花子太郎';
-const hello = <h1>hello、{name}</h1>;
+// const name = '花子太郎';
+// const hello = <h1>hello、{name}</h1>;
 
-ReactDOM.render(
-    hello,
-    document.getElementById('hello')
-);
-
-// -------------------------------------------------
-
-
-
+// ReactDOM.render(
+//     hello,
+//     document.getElementById('hello')
+// );
 
 // -------------------------------------------------
 
-function formatName(user) {
-  return user.firstName + '' + user.lastName;
-}
 
-const user = {
-  firstName: '刹那',
-  lastName: '・F・セイエイ'
-};
 
-console.log(user);
 
-const element = (
-  <h1>
-    Hello,{formatName(user)}
-  </h1>
-);
+// -------------------------------------------------
 
-ReactDOM.render(
-  element,
-  document.getElementById('name')
-)
+// function formatName(user) {
+//   return user.firstName + '' + user.lastName;
+// }
+
+// const user = {
+//   firstName: '刹那',
+//   lastName: '・F・セイエイ'
+// };
+
+// console.log(user);
+
+// const element = (
+//   <h1>
+//     Hello,{formatName(user)}
+//   </h1>
+// );
+
+// ReactDOM.render(
+//   element,
+//   document.getElementById('name')
+// )
 
 // -------------------------------------------------
 
